@@ -1,3 +1,4 @@
+import "./styles/index.scss";
 const myObj={
     a:1
 }
