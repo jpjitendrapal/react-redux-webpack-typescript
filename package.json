@@ -1,0 +1,28 @@
+{
+  "name": "react-redux-webpack-typescript",
+  "version": "1.0.0",
+  "description": "react-redux-webpack-typescript with webpack 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpjitendrapal/react-redux-webpack-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpjitendrapal/react-redux-webpack-typescript/issues"
+  },
+  "homepage": "https://github.com/jpjitendrapal/react-redux-webpack-typescript#readme",
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
