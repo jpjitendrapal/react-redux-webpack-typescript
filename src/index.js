@@ -1,11 +1,5 @@
+import {render} from 'react-dom';
 import "./styles/index.scss";
-const myObj={
-    a:1
-}
-const obj2={
-    ...myObj,
-    b:2,
-    c:3
-}
-console.log(myObj);
-console.log(obj2);
+import App from "./components/App";
+
+render(<App/>, document.getElementById("root"));
